@@ -1,0 +1,26 @@
+
+@import 'variables';
+.navbar{
+  padding:10px 150px;
+  border-color: $main-color;
+  height:60px;
+  border: 1px;
+}
+
+.navbar-brand{
+  font-size: 24;
+  color:$main-color;
+}
+.form-inline{
+  margin-left:2%;
+}
+  .nav-item .nav-link{
+    color: $main-text-color;
+  }
+
+  .nav-item .nav-link:hover{
+    color: $nav-text-hover-color;
+    font-size: 110%
+  }
+
+

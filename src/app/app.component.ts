@@ -6,5 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'rental-app';
+  componentTitle="This is component title";
+
+ clickHandler(){
+   console.log("welcome to angular 6");
+   alert("I am Clicked")
+ }
+
+ clickHandler1(){
+  console.log("welcome to angular 6");
+  alert("I am Clicked")
+}
+
+clickHandler2(){
+  console.log("welcome to angular 6");
+  alert("I am Clicked")
+}
+ 
 }
